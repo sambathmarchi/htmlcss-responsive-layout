@@ -1,0 +1,518 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+
+
+* {
+  font-family: "PT Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+a {
+  color: inherit;
+  margin: 0.1rem;
+}
+
+header .container {
+  width: 100%;
+  padding: 1rem;
+  font-size: 85%;
+  justify-content: space-between;
+}
+
+.vertical {
+  align-items: center;
+}
+
+header {
+  height: 5rem;
+  background-color: #0084fd;
+  color: white;
+}
+
+.fa-bars:before,
+.fa-navicon:before {
+  content: "\f0c9";
+}
+
+.hb-menu {
+  font-size: 1.5rem;
+}
+
+.sidebar {
+  display: none;
+}
+
+.col {
+  margin-bottom: 4rem;
+  padding: 4rem;
+}
+.wrapper .col {
+  background-color: #b5ddff;
+}
+
+.container {
+  padding: 2.5rem 2.5rem;
+}
+
+.col .card-text {
+  padding: 2rem 2rem;
+}
+
+.card-image img {
+  width: 100%;
+  margin-bottom: -1.5rem;
+}
+.card-image {
+  display: flex;
+  justify-content: center;
+}
+
+.col {
+  border-radius: 2rem;
+}
+
+.wrapper .col {
+  padding: 1rem 1rem;
+}
+
+.btnapple {
+  border-radius: 1rem;
+  padding: 1.2rem;
+  position: absolute;
+  left: 10rem;
+  background-color: #0084fd;
+  color: white;
+}
+
+.card-image {
+  padding: 0.5rem;
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.mb {
+  font-size: 1.1rem;
+  padding: 1rem;
+}
+
+.wrapper .col:not(.first) {
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem 0rem;
+}
+
+.wrapper .icon {
+  font-size: 4.5rem;
+}
+
+.wrapper .col:not(.first) h3 {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.color {
+  color: #0084fd;
+  font-size: 1.6rem;
+}
+
+#planning {
+  background-color: #9593e6;
+}
+
+#planning .col:first-child h3 {
+  font-size: 2rem;
+  margin-bottom: 1em;
+}
+
+#planning .developer {
+  background-color: white;
+  text-align: center;
+}
+
+#planning .developer h3 {
+  font-size: 1.75rem;
+}
+
+#planning .developer p {
+  font-size: 1.4rem;
+  padding: 0 1.5rem;
+}
+
+#planning .developer a {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: #9593e6;
+}
+
+#testimonials {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.testimonials h3,
+p {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 2rem 0rem;
+}
+
+.color2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #9593e6;
+}
+
+.testimpic {
+  height: 100%;
+  background-color: #9593e6;
+  margin-top: 3rem;
+  border-radius: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.testimonial2 {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  background-image: url(../img/testimonial2.jpg);
+  background-repeat: no-repeat;
+  background-size: 150%;
+  border-radius: 50%;
+
+  background-position: center;
+}
+
+.testimonial1 {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  background-image: url(../img/testimonial1.jpg);
+  background-repeat: no-repeat;
+  background-size: 150%;
+  border-radius: 50%;
+
+  background-position: center;
+}
+
+.testimonial3 {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  background-image: url(../img/testimonial3.jpg);
+  background-repeat: no-repeat;
+  background-size: 150%;
+  border-radius: 50%;
+
+  background-position: center;
+}
+
+#benefits {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background-color: #9593e6;
+  margin-top: 4rem;
+  padding: 0.5rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+  width: 80%;
+  margin: auto;
+  padding-top: 3rem;
+}
+
+.box {
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  border-radius: 3rem;
+  margin: 3rem auto;
+  padding: 1.5rem 0rem;
+}
+
+.box h2 {
+  margin-left: 3rem;
+  font-size: 2.5rem;
+  color: #9593e6;
+}
+
+.box p {
+  text-align: left;
+  width: 80%;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+
+.more {
+  border-radius: 1rem;
+  background-color: #9593e6;
+  padding: 0.9rem;
+  display: flex;
+  width: 50%;
+  margin-left: 3rem;
+  justify-content: center;
+  color: white;
+}
+
+#Aboutus {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#Aboutus h2 {
+  font-size: 2.5rem;
+  color: #9593e6;
+}
+
+#Aboutus p {
+  text-align: left;
+  line-height: 2rem;
+  margin-top: 1rem;
+}
+
+.bckgrnd {
+  width: 250px;
+  height: 250px;
+  background-image: url(../img/about.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 50%;
+  background-position: center;
+}
+
+.quotation i {
+  position: relative;
+  color: #9593e6;
+  font-size: 4.5rem;
+  top: -1rem;
+  left: 11rem;
+}
+
+.quote {
+  padding: 1.3rem;
+}
+
+.linkedin {
+  background-color: #9593e6;
+  padding: 0.7rem;
+  margin-top: 1rem;
+  border-radius: 2rem;
+  margin-left: 1rem;
+  display: flex;
+  width: 60%;
+  color: white;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.fa-linkedin {
+  margin-right: 0.5rem;
+}
+
+#getstarted {
+  width: 100%;
+  height: 100%;
+  background-color: #9593e6;
+}
+
+.start {
+  width: 90%;
+  color: white;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 2.5rem 2rem;
+}
+
+.transform {
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #b8b6eb;
+}
+
+#bold {
+  width: 100%;
+  font-size: 2.3rem;
+  padding: 1rem;
+}
+
+#orange {
+  font-size: 4rem;
+  color: #fdc15f;
+  font-weight: bolder;
+}
+
+.buttonstarted {
+  padding: 1.5rem 5rem;
+  background-color: white;
+  color: #9593e6;
+  border-radius: 5rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.start p:nth-of-type(2) {
+  font-size: 0.9rem;
+  padding-top: 1rem;
+}
+
+footer {
+  background-color: #3d3c39;
+  color: white;
+  padding: 2rem;
+  line-height: 1.5rem;
+}
+
+footer a {
+  color: plum;
+}
+
+@media screen and (min-width: 481px) and (max-width: 769px) {
+  #about .container {
+    display: flex;
+  }
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .wrapper .first {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 10px;
+  }
+
+  .wrapper .col {
+    width: calc(100% / 2);
+  }
+
+  .wrapper .col2 {
+    width: 33%;
+  }
+  .wrapper .col3 {
+    width: 35%;
+  }
+
+  .wrapper .first {
+    width: 60%;
+  }
+
+  #benefits {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    width: calc(95% / 2);
+  }
+}
+
+
+
+@media screen and (min-width: 1240px) {
+  #about .container {
+    display: flex;
+  }
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .wrapper .first {
+    width: 58%;
+    display: flex;
+    
+  }
+
+  .wrapper .card-image {
+    width: 50%;
+    display: flex;
+    padding: 0.5rem;
+  }
+
+  .wrapper .card-text {
+    float: left;
+    width: 50%;
+  }
+
+  .btnapple {
+    bottom: 14.5rem;
+    left: 9rem;
+  }
+
+
+
+  .col {
+    width: 33.33%;
+    
+  }
+  
+
+  #col3 {
+    width: 40%;
+    height: 47%;
+    margin: 0;
+  }
+
+  #planning {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #planning .row {
+  display: flex;
+  flex-direction: row;
+   justify-content: space-around;
+   margin: auto;
+   
+  }
+
+  #benefits {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  .box {
+    width: calc(80% / 3);
+    margin-left: 2rem;
+  }
+  
+
+  .sidebar {
+    display: block;
+    padding: 2rem;
+  }
+
+  .fa-bars:before {
+    display: none;
+  }
+}
+
